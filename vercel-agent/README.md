@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SafeUpgrade Vercel Agent 🤖🌐
 
-## Getting Started
+SafeUpgrade Vercel Agent is a web-based **AI DevOps Agent** deployed on **Vercel**.  
+It exposes SafeUpgrade’s decision-making logic through a **REST API** and a simple **UI**, allowing teams to safely evaluate dependency upgrades without breaking production.
 
-First, run the development server:
+This agent is part of the **“AI Agents Assemble”** track and complements the SafeUpgrade CLI Agent.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧠 Why this project exists
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+In December, a **critical vulnerability** was reported in **Next.js / React Server Components**.  
+Many production applications were running vulnerable versions, and blindly upgrading could cause outages.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This agent answers a simple but critical question:
 
-## Learn More
+> **“Is it safe to upgrade this dependency right now?”**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤖 Why this is an AI Agent (important for hackathon)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The Vercel Agent follows the **AI Agent lifecycle**:
 
-## Deploy on Vercel
+1. **Observe** – Receives dependency metadata (current vs latest)
+2. **Reason** – Applies safety rules (major upgrade, canary, framework constraints)
+3. **Decide** – Determines whether to upgrade or block
+4. **Act** – Returns a structured decision with reasoning
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Even without a full external LLM, the agent behaves autonomously and deterministically, making **real DevOps decisions**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🏗️ Tech Stack
+
+- **Next.js (App Router)**
+- **Vercel Serverless Functions**
+- **Node.js**
+- **REST API**
+- **Rule-based AI decision engine**
+
+---
+
+## 🚀 Deployment
+
+This agent is deployed on **Vercel**.
+
+### Root Directory (important)
