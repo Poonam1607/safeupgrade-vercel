@@ -1,0 +1,11 @@
+{
+  "name": "safeupgrade-sample",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}

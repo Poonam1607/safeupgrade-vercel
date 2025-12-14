@@ -1,0 +1,152 @@
+{
+  "upgraded_at": "2025-12-14T13:42:10.538Z",
+  "status": "SAFE",
+  "upgraded": [
+    {
+      "name": "@aws-sdk/client-s3",
+      "from": "3.485.0",
+      "to": "3.948.0",
+      "type": "latest"
+    },
+    {
+      "name": "@hookform/resolvers",
+      "from": "3.3.2",
+      "to": "3.10.0",
+      "type": "safe-minor"
+    },
+    {
+      "name": "@stripe/stripe-js",
+      "from": "2.2.1",
+      "to": "2.4.0",
+      "type": "safe-minor"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "from": "5.8.6",
+      "to": "5.90.12",
+      "type": "latest"
+    },
+    {
+      "name": "@vimeo/player",
+      "from": "2.24.0",
+      "to": "2.30.1",
+      "type": "latest"
+    },
+    {
+      "name": "axios",
+      "from": "1.6.2",
+      "to": "1.13.2",
+      "type": "latest"
+    },
+    {
+      "name": "clsx",
+      "from": "2.0.0",
+      "to": "2.1.1",
+      "type": "latest"
+    },
+    {
+      "name": "daisyui",
+      "from": "4.4.14",
+      "to": "4.12.24",
+      "type": "safe-minor"
+    },
+    {
+      "name": "next",
+      "from": "14.0.3",
+      "to": "14.2.35",
+      "type": "safe-minor"
+    },
+    {
+      "name": "next-auth",
+      "from": "4.24.5",
+      "to": "4.24.13",
+      "type": "latest"
+    },
+    {
+      "name": "react-d3-speedometer",
+      "from": "2.1.0-rc.0",
+      "to": "2.2.1",
+      "type": "safe-minor"
+    },
+    {
+      "name": "react-dom",
+      "from": "18",
+      "to": "18.3.1",
+      "type": "safe-minor"
+    },
+    {
+      "name": "react-hook-form",
+      "from": "7.48.2",
+      "to": "7.68.0",
+      "type": "latest"
+    },
+    {
+      "name": "react-paginate",
+      "from": "8.2.0",
+      "to": "8.3.0",
+      "type": "latest"
+    },
+    {
+      "name": "react-player",
+      "from": "2.13.0",
+      "to": "2.16.1",
+      "type": "safe-minor"
+    },
+    {
+      "name": "react-select",
+      "from": "5.8.0",
+      "to": "5.10.2",
+      "type": "latest"
+    },
+    {
+      "name": "react-slick",
+      "from": "0.29.0",
+      "to": "0.31.0",
+      "type": "latest"
+    },
+    {
+      "name": "react-timer-hook",
+      "from": "3.0.7",
+      "to": "3.0.8",
+      "type": "safe-minor"
+    },
+    {
+      "name": "yup",
+      "from": "1.3.2",
+      "to": "1.7.1",
+      "type": "latest"
+    }
+  ],
+  "skipped": [
+    {
+      "name": "framer-motion",
+      "current": "10.18.0",
+      "latest": "12.23.26",
+      "reason": "major upgrade blocked"
+    },
+    {
+      "name": "react",
+      "current": "18",
+      "latest": "19.2.3",
+      "reason": "major upgrade blocked by policy"
+    },
+    {
+      "name": "react-datepicker",
+      "current": "4.25.0",
+      "latest": "9.0.0",
+      "reason": "major upgrade blocked"
+    },
+    {
+      "name": "react-icons",
+      "current": "4.12.0",
+      "latest": "5.5.0",
+      "reason": "major upgrade blocked"
+    },
+    {
+      "name": "react-toastify",
+      "current": "9.1.3",
+      "latest": "11.0.5",
+      "reason": "major upgrade blocked"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "project": "safeupgrade-sample",
+  "scanned_at": "2025-12-14T13:42:05.826Z",
+  "dependencies": [
+    {
+      "name": "@aws-sdk/client-s3",
+      "latest": "3.948.0",
+      "outdated": true
+    },
+    {
+      "name": "@hookform/resolvers",
+      "latest": "5.2.2",
+      "outdated": true
+    },
+    {
+      "name": "@stripe/stripe-js",
+      "latest": "8.5.3",
+      "outdated": true
+    },
+    {
+      "name": "@tanstack/react-query",
+      "latest": "5.90.12",
+      "outdated": true
+    },
+    {
+      "name": "@vimeo/player",
+      "latest": "2.30.1",
+      "outdated": true
+    },
+    {
+      "name": "axios",
+      "latest": "1.13.2",
+      "outdated": true
+    },
+    {
+      "name": "clsx",
+      "latest": "2.1.1",
+      "outdated": true
+    },
+    {
+      "name": "daisyui",
+      "latest": "5.5.14",
+      "outdated": true
+    },
+    {
+      "name": "framer-motion",
+      "latest": "12.23.26",
+      "outdated": true
+    },
+    {
+      "name": "next",
+      "latest": "15.5.9",
+      "outdated": true
+    },
+    {
+      "name": "next-auth",
+      "latest": "4.24.13",
+      "outdated": true
+    },
+    {
+      "name": "react",
+      "latest": "19.2.3",
+      "outdated": true
+    },
+    {
+      "name": "react-d3-speedometer",
+      "latest": "3.1.1",
+      "outdated": true
+    },
+    {
+      "name": "react-datepicker",
+      "latest": "9.0.0",
+      "outdated": true
+    },
+    {
+      "name": "react-dom",
+      "latest": "19.2.3",
+      "outdated": true
+    },
+    {
+      "name": "react-facebook-pixel",
+      "latest": "1.0.4",
+      "outdated": true
+    },
+    {
+      "name": "react-full-screen",
+      "latest": "1.1.1",
+      "outdated": true
+    },
+    {
+      "name": "react-fullscreen-crossbrowser",
+      "latest": "1.1.3",
+      "outdated": true
+    },
+    {
+      "name": "react-ga4",
+      "latest": "2.1.0",
+      "outdated": true
+    },
+    {
+      "name": "react-hook-form",
+      "latest": "7.68.0",
+      "outdated": true
+    },
+    {
+      "name": "react-icons",
+      "latest": "5.5.0",
+      "outdated": true
+    },
+    {
+      "name": "react-paginate",
+      "latest": "8.3.0",
+      "outdated": true
+    },
+    {
+      "name": "react-player",
+      "latest": "3.4.0",
+      "outdated": true
+    },
+    {
+      "name": "react-select",
+      "latest": "5.10.2",
+      "outdated": true
+    },
+    {
+      "name": "react-slick",
+      "latest": "0.31.0",
+      "outdated": true
+    },
+    {
+      "name": "react-timer-hook",
+      "latest": "4.0.5",
+      "outdated": true
+    },
+    {
+      "name": "react-toastify",
+      "latest": "11.0.5",
+      "outdated": true
+    },
+    {
+      "name": "slick-carousel",
+      "latest": "1.8.1",
+      "outdated": true
+    },
+    {
+      "name": "yup",
+      "latest": "1.7.1",
+      "outdated": true
+    }
+  ]
+}

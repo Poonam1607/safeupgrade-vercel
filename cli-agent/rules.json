@@ -1,0 +1,17 @@
+{
+  "frameworks": {
+    "next": {
+      "blockMajor": true,
+      "blockCanary": true,
+      "requires": ["react"]
+    }
+  },
+  "packages": {
+    "react": {
+      "blockMajor": true
+    },
+    "next": {
+      "blockCanary": true
+    }
+  }
+}
